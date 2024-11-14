@@ -1,15 +1,28 @@
 [
 	{
-		"name": "utils",
+		"name": "utilities",
 		"blocks": [
 			{
 				"name": "add",
-				"directory": "src\\utils",
-				"category": "utils",
+				"directory": "src\\utilities",
+				"category": "utilities",
 				"tests": false,
 				"subdirectory": false,
 				"files": [
 					"add.ts"
+				],
+				"localDependencies": [],
+				"dependencies": [],
+				"devDependencies": []
+			},
+			{
+				"name": "sleep",
+				"directory": "src\\utilities",
+				"category": "utilities",
+				"tests": false,
+				"subdirectory": false,
+				"files": [
+					"sleep.ts"
 				],
 				"localDependencies": [],
 				"dependencies": [],
