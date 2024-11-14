@@ -27,6 +27,19 @@
 				"localDependencies": [],
 				"dependencies": [],
 				"devDependencies": []
+			},
+			{
+				"name": "subtract",
+				"directory": "src\\utilities",
+				"category": "utilities",
+				"tests": false,
+				"subdirectory": false,
+				"files": [
+					"subtract.ts"
+				],
+				"localDependencies": [],
+				"dependencies": [],
+				"devDependencies": []
 			}
 		]
 	}
