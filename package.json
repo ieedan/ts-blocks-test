@@ -1,0 +1,16 @@
+{
+  "name": "ts-blocks-test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "vitest",
+    "build": "ts-blocks build --dirs ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^2.1.5",
+    "ts-blocks": "^1.0.0-next.14"
+  }
+}

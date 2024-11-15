@@ -3,13 +3,17 @@
 		"name": "utilities",
 		"blocks": [
 			{
-				"name": "add",
-				"directory": "src\\utilities",
+				"name": "math",
+				"directory": "src\\utilities\\math",
 				"category": "utilities",
-				"tests": false,
-				"subdirectory": false,
+				"tests": true,
+				"subdirectory": true,
 				"files": [
-					"add.ts"
+					"add.test.ts",
+					"add.ts",
+					"index.ts",
+					"subtract.test.ts",
+					"subtract.ts"
 				],
 				"localDependencies": [],
 				"dependencies": [],
@@ -23,19 +27,6 @@
 				"subdirectory": false,
 				"files": [
 					"sleep.ts"
-				],
-				"localDependencies": [],
-				"dependencies": [],
-				"devDependencies": []
-			},
-			{
-				"name": "subtract",
-				"directory": "src\\utilities",
-				"category": "utilities",
-				"tests": false,
-				"subdirectory": false,
-				"files": [
-					"subtract.ts"
 				],
 				"localDependencies": [],
 				"dependencies": [],
